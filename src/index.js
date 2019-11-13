@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import NewReturnTypes from './newReturnTypes'
+import { NewReturnTypesArray, NewReturnTypesString} from './newReturnTypes'
 
-ReactDom.render(
-  <NewReturnTypes/>,
+ReactDom.render([
+    <NewReturnTypesArray key="NewTypes1"/>,
+    <NewReturnTypesString key="NewTypes2"/>
+  ],
   document.getElementById("app")
 )

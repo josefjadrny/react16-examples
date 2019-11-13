@@ -1,10 +1,12 @@
 import React from 'react'
 
-const NewReturnTypes = () => {
+export const NewReturnTypesArray = () => {
   return [
-    <h1>New return types</h1>,
-    <p>You can use arrays as a return type in render method</p>,
+    <h1 key="uniq1">New return types</h1>,
+    <p key="uniq2">You can use arrays as a return type in render method.</p>,
   ]
 }
 
-export default NewReturnTypes
+export const NewReturnTypesString = () => {
+  return 'Or you can use strings also.'
+}
