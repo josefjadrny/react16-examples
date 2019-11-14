@@ -5,7 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/josefjadrny/react16-examples",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "build:watch": "webpack --mode development -w"
   },
   "author": "bc.josefjadrny@gmail.com",
   "license": "ISC",
