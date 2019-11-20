@@ -1,6 +1,6 @@
 {
   "name": "react16-tutorial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Examples of React 16 new features",
   "main": "index.js",
   "repository": "https://github.com/josefjadrny/react16-examples",
