@@ -3,6 +3,7 @@ import ReactDom from 'react-dom'
 import { NewReturnTypesArray, NewReturnTypesString} from './newReturnTypes'
 import RenderError from './errorBoundaries'
 import { Context } from './context'
+import { Portal } from './portal'
 
 ReactDom.render([
     <h1 key="Title">React 16 examples</h1>,
@@ -10,6 +11,7 @@ ReactDom.render([
     <NewReturnTypesString key="NewTypes2"/>,
     <RenderError key="Error1"/>,
     <Context key="Context1"/>,
+    <Portal key="Portal1"/>,
   ],
   document.getElementById("app")
 )
